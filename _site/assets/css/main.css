@@ -460,7 +460,7 @@ tr, td, th { vertical-align: middle; }
 /* Default notice */
 .notice { margin: 2em 0 !important; /* override*/ padding: 1em; color: #3d4144; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em !important; text-indent: initial; /* override*/ background-color: #f2f3f3; border-radius: 4px; box-shadow: 0 1px 1px rgba(189, 193, 196, 0.25); }
 .notice h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; line-height: inherit; }
-.page__content .notice h4 { /* using at-root to override .page-content h4 font size*/ margin-bottom: 0; font-size: 1em; text-align: justify; }
+.page__content .notice h4 { /* using at-root to override .page-content h4 font size*/ margin-bottom: 0; font-size: 1em; text-align: justify; text-align: justify; }
 .notice p:last-child { margin-bottom: 0 !important; /* override*/ }
 .notice h4 + p { /* remove space above paragraphs that appear directly after notice headline*/ margin-top: 0; padding-top: 0; }
 .notice a { color: #aaaeb0; }
